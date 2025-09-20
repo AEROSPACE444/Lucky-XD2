@@ -15,19 +15,19 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "malvin~pr0BiIQb#WPIjcAQy-2tXJuNsRSdBICuJ9Z0n1-W0ZkxPt01I2QA",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "malvin~MvEwxa6L#oFbV-_sEbWWykljzrfXLiwrXZvhmm4_vtvTn4n6Nny8",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
-  BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
+  BOT_NAME: process.env.BOT_NAME || getConfig("STENA-XMD") || "ʟᴜᴄᴋʏ-xᴅ",
   MODE: getConfig("MODE") || process.env.MODE || "public",
   REPO: process.env.REPO || "https://github.com/Tomilucky218/Lucky-XD2",
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
   OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "263780492124",
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
-  DEV: process.env.DEV || "256789966218",
-  DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER NAME") || "FRADRICK MUSAKATIZA",
+  DEV: process.env.DEV || "263780492124",
+  DEVELOPER_NUMBER: '263780492124@s.whatsapp.net',
   MENU_AUDIO_URL: process.env.MENU_AUDIO_URL || 'https://files.catbox.moe/3v5i11.mp3',
 NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
 
@@ -41,9 +41,9 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   LIVE_MSG: process.env.LIVE_MSG || "> ʙᴏᴛ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ʟᴜᴄᴋʏ xᴅ✦ ғʀᴏᴍ ʟᴜᴄᴋʏ ᴛᴇᴄʜ ʜᴜʙ  ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/Tomilucky218/Lucky-XD2",
 
   // ===== REACTION & STICKER SETTINGS =====
-  AUTO_REACT: process.env.AUTO_REACT || "false",
-  OWNER_REACT: process.env.OWNER_REACT || "false",
-  CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+  AUTO_REACT: process.env.AUTO_REACT || "true",
+  OWNER_REACT: process.env.OWNER_REACT || "true",
+  CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
   CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
   STICKER_NAME: process.env.STICKER_NAME || "ᴋʜᴀɴ-ᴍᴅ",
   AUTO_STICKER: process.env.AUTO_STICKER || "false",
@@ -66,9 +66,9 @@ NEWSLETTER_JID: process.env.NEWSLETTER_JID || '120363420656466131@newsletter',
   PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
-  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By Lucky Tech Hub*",
+  DESCRIPTION: process.env.DESCRIPTION || "*© Powered By STENA Tech Hub*",
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
   AUTO_BIO: process.env.AUTO_BIO || "false",
